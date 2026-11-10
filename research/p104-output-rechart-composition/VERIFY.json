@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_transfer.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Authenticate exact common/current source words and eight peer files; verify all 129 transferred scalar instructions and 21 helper output contracts; reject five source/index/chart/coefficient/duplicate corruptions; compare every transfer receipt field."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_native.py"
+      ],
+      "timeout_seconds": 540,
+      "checks": "Authenticate complete 25-file #7130 export and full nested closure, eight peer files and every reconstructed #7124 byte; exact edit transfer and whole candidate, arbitrary-input forward/adjoint, complete deltas, fresh F25 grid/F24 rejection, 18-stage ingredient cost/precision, affected 512-column maps, eight corruption controls and finite native/signed routes; compare every receipt field."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 600,
+      "checks": "Reconstruct complete #7130 and candidate 17-stage invoices; unchanged rational/integer caller, all 3038 paid/helper maps and 104 main boundaries, fresh grids/envelopes, ordinary/physical/fixed-tape costs, both prices and 54+4 outer gates; compare every frozen field."
+    }
+  ]
+}

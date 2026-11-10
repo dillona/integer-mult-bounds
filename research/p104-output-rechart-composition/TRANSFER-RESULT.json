@@ -1,0 +1,17 @@
+{
+  "controls": {
+    "changed_current_coefficient": true,
+    "changed_current_output_contract": true,
+    "duplicate_source_instruction": true,
+    "wrong_source_chart": true,
+    "wrong_source_instruction": true
+  },
+  "first_peer_instruction": 39877,
+  "instruction_offset": 460,
+  "last_peer_instruction": 73719,
+  "output_edits": 21,
+  "peer_head": "97dc14132da53562b7939776d7a83d72af72eeb1",
+  "primary_head": "161e482bc2d8c78ecef96135430c60d49b8fc345",
+  "scalar_edits": 129,
+  "status": "PASS_OUTPUT_RECHART_TRANSFER"
+}

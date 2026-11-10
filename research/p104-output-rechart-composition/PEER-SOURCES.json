@@ -1,0 +1,63 @@
+{
+  "head": "97dc14132da53562b7939776d7a83d72af72eeb1",
+  "pr": 7124,
+  "scope": "Eight exact peer files used for source binding, nomination transfer, comparison and attribution; not a complete peer-package export or an independent replay of its full registered package. The common #7123 closure is fully retained in the #7130 export.",
+  "files": [
+    {
+      "path": "peer/construct.py",
+      "source_path": "research/p104-global-output-rechart/construct.py",
+      "size": 2132,
+      "sha256": "56792894cff0607b2801b7ddc519e1f5ec1af8b70ce304a118e4b9467a939f10",
+      "git_blob": "70b54635320b3d705582a7b6569737d815f5c2bc"
+    },
+    {
+      "path": "peer/CHANGES.json",
+      "source_path": "research/p104-global-output-rechart/CHANGES.json",
+      "size": 7072,
+      "sha256": "e645aaa73a169d74d83d93fa31e4fc0eb951b74d40be23e6fe41aee759c5e800",
+      "git_blob": "e1d530f9a5a76209a3bd504384246cab3d7e0752"
+    },
+    {
+      "path": "peer/INPUTS.json",
+      "source_path": "research/p104-global-output-rechart/INPUTS.json",
+      "size": 5711,
+      "sha256": "a03561366baa758fbf81dddbaf5e84f10662273e207f543ba6b9065bf0575bbe",
+      "git_blob": "d7231ac870f4b529734fd6bb3b25ae8fe2d49d1b"
+    },
+    {
+      "path": "peer/WORD.json.gz",
+      "source_path": "research/p104-global-output-rechart/WORD.json.gz",
+      "size": 365562,
+      "sha256": "26f4f14e42c22c4c88376a1581654a6c0e143fe5c0522b0475d826b3f76a4040",
+      "git_blob": "beb9a56b48bbf1e10c323db29dd6b793bd4b026d"
+    },
+    {
+      "path": "peer/NATIVE-RESULT.json",
+      "source_path": "research/p104-global-output-rechart/NATIVE-RESULT.json",
+      "size": 74965,
+      "sha256": "b0badb901d4b8d7e28a5fae4bae3b19bc87401b41fe39a830b1227de07b4ecbe",
+      "git_blob": "0b3bd194187d84acaf21a92b87f431b01a1abf9f"
+    },
+    {
+      "path": "peer/RESULT.json",
+      "source_path": "research/p104-global-output-rechart/RESULT.json",
+      "size": 78679,
+      "sha256": "e6692aaeee16f7309bf6155e84f9b6b7f2e932ea3b31518834d5bd38db7465c5",
+      "git_blob": "1c91263862094c6fd73abc17253263c9a34f0f60"
+    },
+    {
+      "path": "peer/PROOF.md",
+      "source_path": "research/p104-global-output-rechart/PROOF.md",
+      "size": 3993,
+      "sha256": "80e648b5c1aa3a1a46d5264641a002ec29111ab5cfce4a47f6434740867317e6",
+      "git_blob": "2e17b59387477288f5f94d6e363dff00868c5af3"
+    },
+    {
+      "path": "peer/README.md",
+      "source_path": "research/p104-global-output-rechart/README.md",
+      "size": 1873,
+      "sha256": "54d23d90492983ab764616ea9931c20125141c8df6f71130e7e6b74cf3be98e8",
+      "git_blob": "c848acf3f2a6f6615eaceab02645f870c4a21b32"
+    }
+  ]
+}

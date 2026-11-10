@@ -1,0 +1,14 @@
+{
+  "scope": "One exact source-bound composition; no new search.",
+  "primary_head": "161e482bc2d8c78ecef96135430c60d49b8fc345",
+  "peer_head": "97dc14132da53562b7939776d7a83d72af72eeb1",
+  "common_head": "020d581d9856b6db83e448c3f20418bc63b72c34",
+  "provenance": "The output-chart nomination and constructor belong to Rohan Arun, using 1337isnot1337/OpenAI Codex fresh-helper-boundary alpha expansion. The unit-pivot split is retained from #7130.",
+  "transferred_scalar_edits": 129,
+  "transferred_output_edits": 21,
+  "instruction_offset": 460,
+  "offset_reason": "426 input-basis instructions plus two17-instruction cut bases precede every transferred source event.",
+  "tested_compositions": 1,
+  "local_lab": "Read-only source comparison, exact transfer, native/price nomination and independent grid derivation; public replay does not depend on local paths or discovery code.",
+  "stop_rule": "One full verified improvement, then refresh before any new construction round."
+}

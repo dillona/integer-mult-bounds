@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "task_id": "p104-side-correction",
+  "base_commit": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "priority_revision": 8,
+  "original_card": {
+    "id": "p104-side-correction",
+    "question": "Can joint helper bases and a legal causal split improve the complete P104 productive/paid invoice?",
+    "starting_points": [
+      "docs/research/current-priorities.md",
+      "docs/research/research-family-status.md",
+      "certificates/selected-result.json",
+      "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md",
+      "research/p104-helper-subspace-splits/README.md",
+      "research/dyadic-helper-channel-capacity/README.md"
+    ],
+    "methods": [
+      "Construct and independently check one source-bound instance of the stated first experiment.",
+      "Seek an exact counterexample or target-specific complete-budget obstruction to that same proposed change."
+    ],
+    "acceptance_gate": "An exact arbitrary-input identity, source/target frame availability and restoration at the chosen cut, plus the complete channel+correction+idle/hosting bill or an explicit favorable bound. The native channel alone is not a supplier. A scoped local result may be retained without a complete supplier. Expanding it into further construction rounds requires the family-level budget and obligation gate in research-family-status.md; an optimistic passing relaxation alone is not acceptance.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_selected_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read revision 8, the selected review and live exact-source handoffs. Then follow this card's bounded first_experiment.",
+      "scope": "Source-bound orientation only, not a supplier replay or theorem proof."
+    },
+    "first_experiment": "Start with the selected #5599 emitted word and review pending #5718 distinct input/output bases plus #5717/#5719 coverage before claiming work. Pick one uncovered source word, helper group and cut region. Prove the arbitrary-input relation and legal entry/exit corrections, then compare full target and paid profiles. Reject if completion, owned lifetimes or consumer costs repay the gain. A static pairing rank alone is not a physical split.",
+    "bottleneck_link": "Judge the actual current supplier contract and complete signed target/paid bill; frozen-profile ceilings require an applicability proof.",
+    "allowed_variations": [
+      "One exact source head, helper/cut region or quantified proposition and changed hypothesis; check live handoffs first. Different seeds are not different scopes."
+    ],
+    "scope_change_triggers": [
+      "Changing source head, helper/cut domain, operation alphabet or caller boundary without recording the new scope.",
+      "Treating an archived proposal or local numerical pass as complete supplier admission."
+    ],
+    "overlap_terms": [
+      "P104",
+      "helper basis",
+      "helper split",
+      "5718",
+      "dyadic capacity"
+    ],
+    "existing_checks": [
+      {
+        "scope": "PR #4133: literal-slot defect",
+        "evidence": "research/p104-literal-slot-defect/README.md",
+        "remaining": "Independently validate the stated scope or change its producer/consumer premise and pay the complete boundary.",
+        "status": "author-checked",
+        "source_commit": "88666f1dee93fbd85b31fd5d6f91a219e111b5f4",
+        "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+      },
+      {
+        "scope": "PR #4136: uniform commutation gap",
+        "evidence": "research/p104-uniform-commutation-gap/README.md",
+        "remaining": "Independently validate the stated scope or change its producer/consumer premise and pay the complete boundary.",
+        "status": "author-checked",
+        "source_commit": "281ce601a8be9db470de630759179c23e1dfaa88",
+        "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+      },
+      {
+        "scope": "PR #4140: uniform encoding gap",
+        "evidence": "research/p104-uniform-encoding-gap/README.md",
+        "remaining": "Independently validate the stated scope or change its producer/consumer premise and pay the complete boundary.",
+        "status": "author-checked",
+        "source_commit": "de25c6525aa866962309df5d107b32d55e6e5628",
+        "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+      },
+      {
+        "scope": "PR #4153: source-chart shortcut exhausts its optimistic allowance",
+        "evidence": "research/p104-source-chart-shortcut/README.md",
+        "remaining": "Independently validate the stated scope or change its producer/consumer premise and pay the complete boundary.",
+        "status": "author-checked",
+        "source_commit": "9123241fea53df77e51ffe30d9aca1625d4bf3a8",
+        "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+      },
+      {
+        "scope": "PR #4154: fiber-tag seam mismatch",
+        "evidence": "research/p104-fiber-tag-seam/README.md",
+        "remaining": "Independently validate the stated scope or change its producer/consumer premise and pay the complete boundary.",
+        "status": "author-checked",
+        "source_commit": "4ffcdaee5d6255a9cea1fe53a5424435068089d0",
+        "selected_record_sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+      },
+      {
+        "scope": "Selected PR5599: complete helper-subspace construction and independent caller replay; five framework assumptions remain.",
+        "evidence": "docs/research/pr-intake-evidence/pr5599-completion/PROOF-REVIEW.md",
+        "remaining": "The next experiment must identify uncovered source-specific work. Successor archive intake does not transfer this admission.",
+        "status": "reviewed",
+        "source_commit": "09dd0965711ca7eeb169057a420abab1c9052137",
+        "selected_record_sha256": "2a0220e866417774606e0f991e41b9c1d26b1f43b97857238cf478dbc7d330b5"
+      }
+    ]
+  },
+  "author": "Prepared for dillona with substantial OpenAI Codex assistance",
+  "ai_assistance": "Substantial OpenAI Codex assistance; no subagents.",
+  "claim": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1166#discussioncomment-19520521",
+  "scope_status": "changed",
+  "scope_change_reason": "Compose two completed sibling results on the common #7123 source: #7130 nonunit-pivot split and Rohan Arun #7124 output rechart. Keep #7130 as the exact comparator and transfer only the peer's pinned 21 output/129 contact changes with complete current-source checks.",
+  "concrete_question": "Does the exact #7124 output rechart remain legal and improve the complete #7130 unit-pivot application?",
+  "actual_scope": "Exact #7130 baseline. Transfer all 129 peer scalar edits by the verified 460-instruction offset, retaining their mapped operands/coefficients and old/new charts; transfer 21 helper outputs unchanged by the split. Use the byte-identical credited peer rechart constructor, then verify the complete new word and application. Publication scope resolved to independent verification artifact for the identical peer #7131 construction.",
+  "domain": "One specified composition of two frozen constructions; no fresh rechart search, alternative nomination or caller change.",
+  "success": "A full conditional application with \u03ba > .003642219284637.",
+  "bottleneck_link": "The two improvements affect different contracts: a legal unit-basis helper split and productive output/contact charts. Compatibility and actual costs must be checked on the composition rather than adding reported gains.",
+  "predecessor_head": "161e482bc2d8c78ecef96135430c60d49b8fc345",
+  "predecessors": [
+    "dillona/OpenAI Codex #7130 nonunit-pivot split, exact161e482bc2d8c78ecef96135430c60d49b8fc345, complete25-file export with full nested #7123 closure retained.",
+    "Rohan Arun #7124 output rechart, exact97dc14132da53562b7939776d7a83d72af72eeb1; byte-identical constructor and original specification retained among eight pinned peer files. 1337isnot1337/OpenAI Codex supplied alpha expansion. This package transfers their nominated changes to #7130, without claiming a new rechart search.",
+    "dillona/OpenAI Codex #7123 exact 020d581d9856b6db83e448c3f20418bc63b72c34, retained complete 30-file export and all nested sources. #7112 zero-pivot smooth swap is extended here to a nonzero nonunit pivot.",
+    "Rohan Arun7122 global input rechart, exact98aad9eb0e7d7f985622a35c7981695fe680c68a, retained as complete9-fileexport with nested7121closure; draft native/price evidence at this frozen head.",
+    "1337isnot1337/OpenAI Codex fresh-helper-boundary/discover-cut.cpp alpha-expansion method used by Rohan Arun7122; later completed source6391d64 retains identical six construction/source files, recorded in PEER-STATUS.json.",
+    "ToikY Discussion7111 original chart120 pattern, retained through7120; it is retained through the exact predecessor chain.",
+    "Ali Romman: helper bases, independent split identity and paid meetings",
+    "Jerry Chen/CubeJerry: causal retiming, native/invoice/compiler engines",
+    "Matarener: complete kernels including zero boundary images and pairing decision",
+    "Rohan Arun: exact7113 signed17-stage caller and source-specific application",
+    "ToikY: #7108\u2013#7110 signed sources and splits, plus the credited chart-120 lead in Discussion #7111",
+    "DreamingOfClouds, Douglas Colkitt/#7000 reviewers and all retained nested-source notices",
+    "dillona/OpenAI Codex:7105,7107,7112,7115,7116,7117; exact7117 parent retains all earlier exports",
+    "dillona/OpenAI Codex7118: first funded residual mode and exact source-specific application",
+    "dillona/OpenAI Codex7119: exact reciprocal source and full application",
+    "ToikY original chart120 pattern and dillona/OpenAI Codex7120 exact-source composition, fully retained as the immediate source."
+  ],
+  "outcome": "completed",
+  "evidence_status": "All three direct CPython 3.14.7 commands and final registered isolated CPython 3.12.16 replay passed. Every frozen transfer/native/application receipt field matched, including five transfer and eight native controls, eleven 512-column maps, all 3038 paid/helper maps and 104 main boundaries, complete costs and 54+4 outer conditions.",
+  "evidence": "WITNESS.json,WORD.json.gz,INPUTS.json,NATIVE-RESULT.json,RESULT.json,REPLAY.txt when complete.",
+  "overlap": "Canonical e545 / priority 8 / selected #7000 unchanged at the new-round fetch. Complete remote overlap: 430 open PRs at 22:00:10 UTC and 7032 Discussion records at 22:01:28 UTC. Local sparse search covers 11 working records with 10167 canonical note paths unsearched. Read completed #7124 exact97dc and updated ToikY #7111: peer independent replay passed; current caller/MOVE negative scopes are distinct. Exact composition claimed in the canonical investigation before substantial work. During final registered replay, peer #7131 early head5385ab69883e11faa9daf61fa1789cd1fc2499e8 appeared with the identical canonical word, changes, constructor and early native/invoice/gate. Publish this package as an independent verification artifact linked to #7131, not a duplicate construction PR; OVERLAP.md records coverage.",
+  "open_questions": [
+    {
+      "question": "Does an independent reviewer reproduce every transferred edit and the full composed application?",
+      "why_it_matters": "Sibling gains cannot be added without proving their source-specific compatibility and full costs.",
+      "first_step": "Run the registered transfer/native/application commands and inspect TRANSFER.json, both source manifests and the normalized-coordinate composition proof.",
+      "blocked_by": "Independent human/formal review and maintainer admission remain."
+    },
+    {
+      "question": "Does the changed output grouping permit another fully priced helper split?",
+      "why_it_matters": "Twenty-one changed helper outputs alter legal common-boundary groups after this composition.",
+      "first_step": "Refresh canonical main and overlap, pin this emitted word, and declare an uncovered group/cut scope before searching.",
+      "blocked_by": "No further gain or global optimum is established here."
+    }
+  ],
+  "stop_rule": "One new fully checked invoice; refresh before any further research round."
+}
